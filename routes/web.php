@@ -29,3 +29,7 @@ Route::get('/contact', function () {
 Route::get('/services', function () {
     return view('services');
 })->name('services');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
