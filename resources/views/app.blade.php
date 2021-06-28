@@ -42,6 +42,9 @@
                     <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
                 </button>
             </form>
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-lg-4">
+                <li class="nav-item"><a class="nav-link " aria-current="page" href="{{route('login')}}">Login</a></li>
+            </ul>
         </div>
     </div>
 </nav>
